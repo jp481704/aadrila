@@ -3,7 +3,7 @@ import HeroImage from "../assets/bg_image/hero_bg.png";
 import GridPattern from "../assets/pattern.png"; 
 import sliderImage1 from "../assets/License.png";
 import sliderImage2 from "../assets/Invocie.png";
-import sliderImage3 from "../assets/doc.png";
+import sliderImage3 from "../assets/Doc.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper/modules";
