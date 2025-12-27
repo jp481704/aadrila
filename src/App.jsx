@@ -17,7 +17,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* Navbar is always rendered so LogoLoader can find its position */}
       <Navbar loading={showLoader} />
 
       {!hasLoadedOnce.current && showLoader && (

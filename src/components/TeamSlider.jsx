@@ -78,7 +78,6 @@ const TeamSlider = () => {
 
   return (
     <section className="relative bg-white py-24 overflow-hidden">
-      {/* RIGHT ARC – comes from RIGHT */}
       <img
         src={right}
         alt="right circle"
@@ -86,7 +85,6 @@ const TeamSlider = () => {
         data-aos="fade-left"
       />
 
-      {/* DOT GRID – comes from LEFT */}
       <img
         src={small_dot}
         alt="small dot"
@@ -96,7 +94,6 @@ const TeamSlider = () => {
       />
 
       <div className="container mx-auto px-6 relative z-10">
-        {/* HEADER – fade down */}
         <div
           className="text-center mb-12"
           data-aos="fade-down"
@@ -117,7 +114,6 @@ const TeamSlider = () => {
       
         </div>
 
-        {/* NAV BUTTONS */}
         <div
           className="flex justify-center gap-4 mb-8"
           data-aos="fade-up"
@@ -137,7 +133,6 @@ const TeamSlider = () => {
           </button>
         </div>
 
-        {/* SLIDER – fade up LAST */}
         <div
           className="max-w-[100%] lg:max-w-[50%] mx-auto overflow-hidden"
           data-aos="fade-up"
@@ -154,7 +149,7 @@ const TeamSlider = () => {
             spaceBetween={0}
                breakpoints={{
               1024: {
-                slidesPerView: 2, // ✅ desktop SAME
+                slidesPerView: 2, 
               },
             }}
             coverflowEffect={{

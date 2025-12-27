@@ -22,7 +22,6 @@ const Application = () => {
 
   return (
     <section className="relative bg-white overflow-hidden py-20 md:py-28 mt-16">
-      {/* LEFT ARC (DESKTOP ONLY) */}
       <img
         src={right}
         alt="Background Arc"
@@ -47,9 +46,7 @@ const Application = () => {
           Industries We Empower
         </h2>
 
-        {/* ================= DESKTOP FLOATING LAYOUT ================= */}
         <div className="relative max-w-6xl ml-auto h-[420px] hidden lg:block">
-          {/* TOP SMALL DOTS */}
           <img
             src={small_dot}
             alt="Small dots"
@@ -84,8 +81,6 @@ const Application = () => {
             text="Streamline patient record management and ensure compliance with HIPAA standards."
             className="absolute right-[4%]"
           />
-
-          {/* BOTTOM BIG DOTS */}
           <img
             src={big_dot}
             alt="Big dots"
@@ -94,8 +89,6 @@ const Application = () => {
             className="absolute right-[-19%] bottom-0"
           />
         </div>
-
-        {/* ================= MOBILE / TABLET STACK ================= */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:hidden">
           <Card
             data-aos="fade-up"
@@ -125,8 +118,6 @@ const Application = () => {
     </section>
   );
 };
-
-/* ================= CARD ================= */
 
 const Card = ({ icon, title, text, className = "", ...props }) => (
   <div

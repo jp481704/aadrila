@@ -29,7 +29,6 @@ const AboutUs = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* HEADER */}
       <div
         className="flex justify-center mb-16 lg:mb-32 pt-28 lg:pt-40 px-4"
         data-aos="fade-down"
@@ -46,7 +45,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* VISION */}
       <div
         className="w-full flex justify-center lg:justify-start mb-14 lg:mb-28 px-4"
         data-aos="fade-right"
@@ -74,7 +72,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* MISSION */}
       <div
         className="w-full flex justify-center lg:justify-end px-4 pb-20"
         data-aos="fade-left"

@@ -15,11 +15,9 @@ const Footer = () => {
 
   return (
     <>
-      {/* ================= CONTACT SECTION ================= */}
       <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
-          {/* LEFT CONTENT */}
           <div data-aos="fade-right">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Contact Us
@@ -54,19 +52,16 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* FORM – MOBILE & TABLET */}
           <div className="lg:hidden mt-10" data-aos="fade-up">
             <FormCard />
           </div>
         </div>
       </section>
 
-      {/* ================= FOOTER ================= */}
       <footer
         className="relative bg-[#3E6EB4] pt-24 lg:pt-44 pb-10"
         data-aos="fade-up"
       >
-        {/* DESKTOP FLOATING FORM */}
         <div
           className="hidden lg:block absolute top-0 right-24 -translate-y-1/2 w-[520px] z-20"
           data-aos="fade-up"
@@ -75,7 +70,6 @@ const Footer = () => {
           <FormCard />
         </div>
 
-        {/* FOOTER TEXT */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-sm text-white">
           <p className="mb-3">
             © 2025 by Aadrila Technologies Private Limited CIN
@@ -88,7 +82,6 @@ const Footer = () => {
         </div>
       </footer>
 
-      {/* ================= INPUT STYLES ================= */}
       <style>{`
         .input {
           width: 100%;
@@ -108,7 +101,6 @@ const Footer = () => {
   );
 };
 
-/* ================= FORM CARD (NO POSITIONING HERE) ================= */
 
 const FormCard = () => (
   <div className="bg-white rounded-2xl shadow-2xl p-6 sm:p-7 w-full relative mt-[30em] md:mt-0">

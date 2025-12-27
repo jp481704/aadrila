@@ -40,7 +40,6 @@ const Hero = () => {
           backgroundPosition: "center",
         }}
       >
-        {/* GRID */}
         <div
           className="absolute inset-0 opacity-10 pointer-events-none"
           style={{
@@ -52,7 +51,6 @@ const Hero = () => {
         <div className="container mx-auto px-4 sm:px-6 relative z-10 pt-24 sm:pt-28">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
 
-            {/* LEFT CONTENT */}
             <div
               className="flex flex-col justify-center text-center md:text-left"
               data-aos="fade-right"
@@ -83,7 +81,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* RIGHT SLIDER */}
             <div
               className="relative w-full md:w-[600px] flex justify-center"
               style={{ "--scan-duration": `${SWAP_SPEED}ms` }}
@@ -134,7 +131,6 @@ const Hero = () => {
         </div>
       </section>
 
-      {/* STYLES (UNCHANGED LOGIC) */}
       <style>{`
 .hero-swiper { overflow: visible !important; }
 

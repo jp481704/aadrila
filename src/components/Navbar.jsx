@@ -55,9 +55,7 @@ const Navbar = ({ loading }) => {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
-        {/* TOP BAR */}
         <div className="flex h-16 md:h-20 items-center justify-between">
-          {/* LOGO */}
           <div
             className="flex items-center cursor-pointer"
             onClick={() => navigate("/")}
@@ -66,12 +64,11 @@ const Navbar = ({ loading }) => {
               id="navbar-logo"
               src={Logo}
               alt="Logo"
-              style={{ opacity: 0 }} // 🔥 loader controls this
+              style={{ opacity: 0 }} 
               className="h-8 md:h-10 lg:h-12 w-auto object-contain"
             />
           </div>
 
-          {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navLinks.map((link) => (
               <button
@@ -84,12 +81,10 @@ const Navbar = ({ loading }) => {
             ))}
           </div>
 
-          {/* DESKTOP CTA */}
           <button className="hidden lg:inline-flex bg-[#3E6EB4] text-white px-6 py-2.5 rounded-full text-sm font-medium">
             Get a Demo
           </button>
 
-          {/* MOBILE MENU BUTTON */}
           <button
             className="md:hidden text-gray-700"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -98,7 +93,6 @@ const Navbar = ({ loading }) => {
           </button>
         </div>
 
-        {/* MOBILE MENU */}
         <div
           ref={mobileMenuRef}
           className="md:hidden overflow-hidden"

@@ -58,7 +58,6 @@ const products = [
 ];
 
 const Features = () => {
-  // ✅ AOS INIT (NO DESIGN CHANGE)
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -71,7 +70,6 @@ const Features = () => {
 
   return (
     <section className="relative bg-white overflow-hidden py-20 lg:py-28">
-      {/* HEADER */}
       <div className="relative text-center mb-20 lg:mb-28" data-aos="fade-down">
         <img
           src={big_dot}
@@ -98,7 +96,6 @@ const Features = () => {
                 isReverse ? "lg:flex-row-reverse" : ""
               }`}
             >
-              {/* BACKGROUND ARC — SAME POSITION */}
               <img
                 src={isReverse ? right : left}
                 alt="background circle"
@@ -109,7 +106,6 @@ const Features = () => {
                 data-aos-delay="100"
               />
 
-              {/* SMALL DOT — SAME LOGIC */}
               {index === 1 && (
                 <img
                   src={small_dot}
@@ -120,7 +116,6 @@ const Features = () => {
                 />
               )}
 
-              {/* BIG DOT — SAME LOGIC */}
               {index === 2 && (
                 <img
                   src={big_dot}
@@ -131,7 +126,6 @@ const Features = () => {
                 />
               )}
 
-              {/* TEXT */}
               <div
                 className="flex-1 space-y-6 text-center lg:text-left relative z-10"
                 data-aos={isReverse ? "fade-left" : "fade-right"}
@@ -176,7 +170,6 @@ const Features = () => {
                 </div>
               </div>
 
-              {/* IMAGE */}
               <div
                 className="flex-1 relative z-10 flex justify-center"
                 data-aos={isReverse ? "fade-right" : "fade-left"}

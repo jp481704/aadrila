@@ -27,7 +27,6 @@ useEffect(() => {
 
   const scale = navbarRect.width / loaderRect.width;
 
-  // 🔒 lock loader logo
   gsap.set(loaderLogo, {
     position: "fixed",
     left: loaderRect.left,
@@ -35,7 +34,6 @@ useEffect(() => {
     opacity: 1,
   });
 
-  // 🔒 navbar hidden once, React won't touch again
   gsap.set(navbarLogo, { opacity: 0 });
 
   const tl = gsap.timeline({
@@ -55,7 +53,6 @@ useEffect(() => {
       ease: "expo.inOut",
     })
 
-    // 🔥 EXACT SAME FRAME SWITCH
     .add(() => {
       navbarLogo.style.opacity = "1";
       loaderLogo.style.opacity = "0";
@@ -67,9 +64,6 @@ useEffect(() => {
       onComplete: onFinish,
     });
 }, [onFinish]);
-
-
-
 
 
   return (

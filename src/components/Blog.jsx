@@ -50,7 +50,6 @@ const Blog = () => {
   return (
     <section className="relative bg-white py-10">
       
-      {/* LEFT DOT */}
       <img
         src={small_dot}
         alt="dots"
@@ -58,7 +57,6 @@ const Blog = () => {
         className="absolute left-20 top-15 lg:block hidden"
       />
 
-      {/* HEADER */}
       <div
         className="text-center mb-16"
         data-aos="fade-down"
@@ -78,7 +76,6 @@ const Blog = () => {
         </p>
       </div>
 
-      {/* RIGHT DOT */}
       <img
         src={big_dot}
         alt=""
@@ -87,7 +84,6 @@ const Blog = () => {
 
       />
 
-      {/* SLIDER */}
       <div
         className="max-w-7xl mx-auto px-6"
         data-aos="fade-up"
@@ -114,10 +110,8 @@ const Blog = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 120}
               >
-                {/* GRADIENT PLATE */}
                 <div className="absolute inset-x-0 bottom-0 h-[40%] rounded-2xl bg-gradient-to-br from-purple-200 via-indigo-200 to-blue-200 opacity-80"></div>
 
-                {/* WHITE CARD */}
                 <div className="relative bg-white rounded-2xl p-6 border border-slate-100 shadow-sm w-[90%] mx-auto h-full min-h-[250px]">
                   <h3 className="font-semibold text-slate-900 mb-2 leading-snug">
                     {blog.title}
@@ -134,7 +128,6 @@ const Blog = () => {
           ))}
         </Swiper>
 
-        {/* NAVIGATION BUTTONS */}
         <div className="flex justify-center gap-4 mt-8 relative z-10">
           <button className="blog-prev w-11 h-11 rounded-lg bg-blue-600 text-white flex items-center justify-center shadow-md hover:bg-blue-700 transition cursor-pointer">
             <ArrowLeft />
