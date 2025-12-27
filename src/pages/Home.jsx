@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
 import Application from "../components/Application";
-import Blog from "../components/blog";
+import Blog from "../components/Blog";
 
 const Home = () => {
   return (
