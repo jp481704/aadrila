@@ -33,7 +33,7 @@ const Application = () => {
         {/* HEADER */}
         <p
           data-aos="fade-right"
-          className="text-base md:text-lg font-medium text-orange-500 mb-3"
+          className="text-[20px] md:text-lg font-medium text-orange-500 mb-3"
         >
           AI-driven innovation for growth.
         </p>

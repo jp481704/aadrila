@@ -77,7 +77,7 @@ const Features = () => {
           className="absolute left-6 -top-6 opacity-60 hidden lg:block"
         />
 
-        <p className="text-orange-600 font-medium  mb-2 text-[24px]">
+        <p className="text-orange-600 font-medium  mb-2 text-[20px]">
           features and benefits.
         </p>
         <h2 className="text-3xl lg:text-4xl font-bold text-slate-900">
@@ -127,7 +127,7 @@ const Features = () => {
               )}
 
               <div
-                className="flex-1 space-y-6 text-center lg:text-left relative z-10"
+                className="flex-1 space-y-6 lg:text-left relative z-10"
                 data-aos={isReverse ? "fade-left" : "fade-right"}
                 data-aos-delay="250"
               >

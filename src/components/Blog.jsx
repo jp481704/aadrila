@@ -61,11 +61,11 @@ const Blog = () => {
         className="text-center mb-16"
         data-aos="fade-down"
       >
-        <h2 className="text-4xl font-bold text-slate-900 mb-4">
+        <h2 className="text-[24px] font-bold text-slate-900 mb-4">
           Blogs
         </h2>
 
-        <p className="text-gray-500 mx-auto text-[24px]">
+        <p className="text-gray-500 mx-auto text-[20px]">
           <span className="bg-[linear-gradient(90deg,#CD6028_11%,#3E6EB4_100%)] bg-clip-text text-transparent">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </span>
